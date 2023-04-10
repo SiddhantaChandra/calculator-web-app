@@ -1,0 +1,56 @@
+.keys-box {
+  width: 350px;
+  margin-top: 36px;
+}
+
+.keys-row {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  margin-top: 12px;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 76px;
+  height: 76px;
+
+  border-radius: 20px;
+
+  background-color: #817f98;
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 24px;
+
+  background: linear-gradient(#817f98, #817f98) padding-box,
+    linear-gradient(to top, #fff, transparent) border-box;
+  border: 1.5px solid transparent;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.key p {
+  color: #fff;
+}
+
+.key__blue {
+  background-color: #8b91cd;
+  background: linear-gradient(#8b91cd, #8b91cd) padding-box,
+    linear-gradient(to top, #fff, transparent) border-box;
+  border: 1.5px solid transparent;
+}
+
+.key__red {
+  background-color: #f17981;
+  background: linear-gradient(#f17981, #f17981) padding-box,
+    linear-gradient(to top, #fff, transparent) border-box;
+  border: 1.5px solid transparent;
+}

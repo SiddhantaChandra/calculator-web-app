@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: #d8daf7;
+}
+
+.container {
+  background-color: #646373;
+  padding: 24px 24px;
+
+  border-radius: 32px;
+}
