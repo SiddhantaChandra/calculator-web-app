@@ -32,7 +32,7 @@ function App() {
       const newValue = addNegative ? `(-${value})` : value;
       setAddNegative(false);
 
-      // if the input value is a sign and the result state has a value, set the displayValue to the result and append the sign to it
+      // if the input value is a sign and the result state has a value, set the displayValue to the result and attach the sign to it
       if (['+', '-', '*', '/'].includes(value) && result !== '') {
         setDisplayValue(`${result}${value}`);
         setResult('');
