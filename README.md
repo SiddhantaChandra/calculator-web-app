@@ -1,30 +1,72 @@
-Calculator App
+
+# Simple Calculator App
+
 This is a simple calculator app built with React. The app allows users to perform basic arithmetic operations, such as addition, subtraction, multiplication, and division.
 
-Features
-Simple and intuitive user interface
-Basic arithmetic operations: addition, subtraction, multiplication, and division
-Ability to clear the display and start over
-Ability to toggle between positive and negative numbers
-Error handling for invalid expressions
-Getting Started
-To run the app locally, follow these steps:
 
-Clone the repository
-Install dependencies by running npm install in the root directory
-Start the development server by running npm start
-Open your browser and go to http://localhost:3000
-Usage
-Enter a number or arithmetic operator by clicking on the corresponding button on the calculator keypad
-Use the "+/-" button to toggle between positive and negative numbers
-Use the "%" button to calculate a percentage
-Use the "=" button to calculate the result
-Use the "C" button to clear the display and start over
-Technologies Used
-React
-CSS
-Credits
-The calculator app was built by [Your Name Here].
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Features
+
+- Simple and intuitive user interface
+- Basic arithmetic operations: addition, subtraction, multiplication, and division
+- Ability to clear the display and start over
+- Ability to toggle between positive and negative numbers
+- Error handling for invalid expressions
+
+## Run Locally
+
+- Clone the project
+
+```bash
+  git clone https://github.com/SiddhantaChandra/calculator-web-app.git
+```
+or
+
+```bash
+  git clone https://github.com/SiddhantaChandra/calculator-web-app.git
+```
+
+
+
+- Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Usage
+
+1.) Enter a number or arithmetic operator by clicking on the corresponding button on the calculator keypad
+
+2.) Use the "+/-" button to toggle between positive and negative numbers
+
+3.) Use the "%" button to calculate a percentage
+
+4.) Use the "=" button to calculate the result
+
+5.) Use the "C" button to clear the display and start over
+
+## Tech Stack
+
+- React
+- CSS
+
+
+## License
+
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License - see the [LICENSE](https://github.com/SiddhantaChandra/calculator-web-app/blob/master/LICENSE) file for details.
+
