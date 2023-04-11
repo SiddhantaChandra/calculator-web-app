@@ -40,8 +40,16 @@
   font-size: 24px;
 }
 
+.input:focus-visible {
+  outline: none;
+}
+
 .output {
   font-size: 56px;
   padding-bottom: 30px;
   color: #474747;
+}
+
+.output:focus-visible {
+  outline: none;
 }
