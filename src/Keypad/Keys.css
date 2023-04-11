@@ -42,13 +42,34 @@
 }
 
 .key__blue {
+  background-color: #747289;
+  background: linear-gradient(#747289, #747289) padding-box,
+    linear-gradient(to top, #fff, transparent) border-box;
+  border: 1.5px solid transparent;
+}
+
+.key__red {
+  background-color: #d96d74;
+  background: linear-gradient(#d96d74, #d96d74) padding-box,
+    linear-gradient(to top, #fff, transparent) border-box;
+  border: 1.5px solid transparent;
+}
+
+.key:active {
+  background-color: #7d83b9;
+  background: linear-gradient(#7d83b9, #7d83b9) padding-box,
+    linear-gradient(to top, #fff, transparent) border-box;
+  border: 1.5px solid transparent;
+}
+
+.key__blue:active {
   background-color: #8b91cd;
   background: linear-gradient(#8b91cd, #8b91cd) padding-box,
     linear-gradient(to top, #fff, transparent) border-box;
   border: 1.5px solid transparent;
 }
 
-.key__red {
+.key__red:active {
   background-color: #f17981;
   background: linear-gradient(#f17981, #f17981) padding-box,
     linear-gradient(to top, #fff, transparent) border-box;
