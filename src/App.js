@@ -32,11 +32,19 @@ function App() {
       const newValue = addNegative ? `(-${value})` : value;
       setAddNegative(false);
 
-      // if the input value is a sign and the result state has a value, set the displayValue to the result and attach the sign to it
-      if (['+', '-', '*', '/'].includes(value) && result !== '') {
+      // check if the input value is an operator and the last character of displayValue is also an operator
+      if (
+        ['+', '-', '*', '/'].includes(value) &&
+        ['+', '-', '*', '/'].includes(displayValue.slice(-1))
+      ) {
+        // replace the last operator with the new operator
+        setDisplayValue(displayValue.slice(0, -1) + value);
+      } else if (['+', '-', '*', '/'].includes(value) && result !== '') {
+        // if the input value is an operator and the result state has a value, set the displayValue to the result and attach the sign to it
         setDisplayValue(`${result}${value}`);
         setResult('');
       } else {
+        // if the input value is a digit or a decimal point, add it to the displayValue state
         setDisplayValue(displayValue + newValue);
       }
     }

@@ -1,8 +1,20 @@
+import { useState } from 'react';
 import './Keys.css';
 
 const Keys = ({ valueHandler }) => {
+  const [lastOperator, setLastOperator] = useState(null);
+
   const clickHandler = (event) => {
     const value = event.target.getAttribute('value');
+    if (['+', '-', '*', '/'].includes(value)) {
+      if (lastOperator && ['+', '-', '*', '/'].includes(lastOperator)) {
+        // if last operator is also an operator, remove it
+        valueHandler('backspace');
+      }
+      setLastOperator(value);
+    } else {
+      setLastOperator(null);
+    }
     valueHandler(value);
   };
 

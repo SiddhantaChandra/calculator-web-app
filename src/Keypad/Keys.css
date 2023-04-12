@@ -37,27 +37,27 @@
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.key p {
-  color: #fff;
-}
-
-.key__blue {
+.key:active {
   background-color: #747289;
   background: linear-gradient(#747289, #747289) padding-box,
     linear-gradient(to top, #fff, transparent) border-box;
   border: 1.5px solid transparent;
 }
 
-.key__red {
-  background-color: #d96d74;
-  background: linear-gradient(#d96d74, #d96d74) padding-box,
+.key p {
+  color: #fff;
+}
+
+.key__blue {
+  background-color: #8e93d1;
+  background: linear-gradient(#8e93d1, #8e93d1) padding-box,
     linear-gradient(to top, #fff, transparent) border-box;
   border: 1.5px solid transparent;
 }
 
-.key:active {
-  background-color: #7d83b9;
-  background: linear-gradient(#7d83b9, #7d83b9) padding-box,
+.key__red {
+  background-color: #f17981;
+  background: linear-gradient(#f17981, #f17981) padding-box,
     linear-gradient(to top, #fff, transparent) border-box;
   border: 1.5px solid transparent;
 }
@@ -70,8 +70,8 @@
 }
 
 .key__red:active {
-  background-color: #f17981;
-  background: linear-gradient(#f17981, #f17981) padding-box,
+  background-color: #d96d74;
+  background: linear-gradient(#d96d74, #d96d74) padding-box,
     linear-gradient(to top, #fff, transparent) border-box;
   border: 1.5px solid transparent;
 }
